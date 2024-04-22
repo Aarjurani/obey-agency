@@ -67,11 +67,7 @@ function cursoranimation() {
   });
 
   
-  Shery.makeMagnet("#nav4-part2 h4",{
-    //Parameters are optional.
-    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    duration: 1,
-  });
+ 
   
   var videoContainer = document.querySelector("#video-container");
   var video = document.querySelector("#video-container video");
@@ -128,7 +124,7 @@ document.addEventListener("mousemove", function (dets) {
 
 document.querySelector("#hero3").addEventListener("mouseenter", function () {
   gsap.to("#flag", {
-    opacity: 1,
+    opacity:9,
   });
 });
 document.querySelector("#hero3").addEventListener("mouseleave", function () {
